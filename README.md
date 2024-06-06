@@ -37,6 +37,7 @@ microservice-architecture/
 ### 1. Config Server
 
 Manages the configuration for all microservices from a centralized location.
+gets all configurations from this github repo :https://github.com/mounirrouissi/config-server
 
 **Run Config Server**:
 ```sh
