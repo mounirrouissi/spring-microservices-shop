@@ -49,6 +49,9 @@ mvn spring-boot:run
 
 Service registry for service discovery.
 
+<img width="959" alt="image" src="https://github.com/mounirrouissi/spring-microservices-shop/assets/14219671/4fb4c091-9c61-41a3-a300-d661e52c1d00">
+
+
 **Run Eureka Server**:
 ```sh
 cd eureka-server
