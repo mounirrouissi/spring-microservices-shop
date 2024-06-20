@@ -37,6 +37,7 @@ microservice-architecture/
 ### 1. Config Server
 
 Manages the configuration for all microservices from a centralized location.
+gets all configurations from this github repo :https://github.com/mounirrouissi/config-server
 
 **Run Config Server**:
 ```sh
@@ -47,6 +48,9 @@ mvn spring-boot:run
 ### 2. Eureka Server
 
 Service registry for service discovery.
+
+<img width="959" alt="image" src="https://github.com/mounirrouissi/spring-microservices-shop/assets/14219671/4fb4c091-9c61-41a3-a300-d661e52c1d00">
+
 
 **Run Eureka Server**:
 ```sh
