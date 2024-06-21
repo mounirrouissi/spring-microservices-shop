@@ -51,10 +51,14 @@ public class ProductService {
         if (productIds.size() != storedProducts.size()) {
             throw new ProductPurchaseException("One or more products does not exist");
         }
+
+
         var sortedRequest = request
                 .stream()
                 .sorted(Comparator.comparing(ProductPurchaseRequest::productId))
                 .toList();
+
+
         var purchasedProducts = new ArrayList<ProductPurchaseResponse>();
         for (int i = 0; i < storedProducts.size(); i++) {
             var product = storedProducts.get(i);

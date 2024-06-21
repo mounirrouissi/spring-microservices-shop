@@ -49,14 +49,14 @@ public class OrderService {
                     )
             );
         }
-        var paymentRequest = new PaymentRequest(
+     /*   var paymentRequest = new PaymentRequest(
                 request.amount(),
                 request.paymentMethod(),
                 order.getId(),
                 order.getReference(),
                 customer
         );
-        paymentClient.requestOrderPayment(paymentRequest);
+        paymentClient.requestOrderPayment(paymentRequest);*/
 
         orderProducer.sendOrderConfirmation(
                 new OrderConfirmation(
